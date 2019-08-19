@@ -1,0 +1,8 @@
+@import "bootstrap-variables";
+
+//to ensure a good enough contrast in breadcrumb
+.breadcrumb {
+  border-style: solid;
+  border-color: #008297;
+  border-width: 1px;
+}

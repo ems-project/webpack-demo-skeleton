@@ -1,8 +1,6 @@
-const $ = require('jquery');
-window.$ = $;
-window.jQuery = $;
+'use strict';
 
-require('bootstrap');
-
+import './js/app';
+import './css/app.scss';
 
 console.log('Hello world');
