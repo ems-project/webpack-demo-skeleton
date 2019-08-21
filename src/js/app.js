@@ -125,5 +125,12 @@ $( document ).ready(function() {
 });
 
 
-hashcash();
+hashcash(function(form){
+    console.log('submit');
+}, function(ouuid){
+    console.log(ouuid);
+}, function (message) {
+    alert('The submit faces an error: '+message);
+});
+
 adminMenu();
